@@ -6,7 +6,9 @@ import logout from '../../assets/logout.svg';
 function Header () {
     return (
         <div className="container-header">
-            <img src={logo} alt="logo-dindin"/>
+            <div className="img-logo">
+                <img  src={logo} alt="logo-dindin"/>
+            </div>
             <div className="container-profile">
                 <img src={avatar} alt="img-avatar"/>
                 <h1>Daniel</h1>

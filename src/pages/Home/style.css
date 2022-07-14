@@ -3,4 +3,150 @@
     height: 100vh;
 
     display: flex;
+    flex-direction: column;
+
+    position: relative;
 }
+
+.controler-finance {
+
+    display: flex;
+
+    height: 89vh;
+    width: 100vw;
+    position: absolute;
+    top: 128px;
+
+    background: #FFFFFF;
+    border-radius: 60px 60px 0px 0px;
+}
+
+.btn-filter{
+    margin-left: 203px;
+    margin-top: 140px;
+
+    cursor: pointer;
+}
+
+.finances {
+    width: 55%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.finance {
+    width: 964px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 203px;
+    margin-top: 34px;
+}
+
+.data {
+    display: flex;
+    position: relative;
+}
+
+.data img {
+    width: 8px;
+    height: 5px;
+
+    position: absolute;
+    top: 27px;
+    left: 32px;
+}
+
+.titles-finance {
+    display: flex;
+    width: 800px;
+    height: 58px;
+    justify-content: space-between;
+}
+
+.content-finance{
+    width: 964px;
+    height: 69px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    border-bottom: 1px solid rgba(150, 145, 145, 0.5);
+
+    border-top: 1px solid rgb(150, 145, 145, 0.5);
+}
+
+span {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.container-summary {
+    width: 45%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.summary {
+    width: 400px;
+    height: 500px;
+
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 140px;
+
+}
+
+.summary h1 {
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+.Appetizer, .exits, .balance {
+    display: flex;
+
+    width: 300px;
+    margin-left: 30px;
+
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Appetizer {
+  margin-top: 40px;  
+}
+
+.exits {
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.container-summary button {
+    width: 400px;
+    height: 60px;
+
+    border: none;
+
+    margin-top: 20px;
+
+    color: white;
+    background: #7978D9;
+    border-radius: 5px;
+}
+
