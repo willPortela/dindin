@@ -4,6 +4,7 @@ import Login from '../../components/Login';
 import logo from '../../assets/logo.svg';
 import slogan from '../../assets/slogan.svg';
 
+
 function Main() {
   return (
     <div className="container-main">

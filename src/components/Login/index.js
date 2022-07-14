@@ -1,4 +1,5 @@
 import './style.css'
+import { Link } from 'react-router-dom';
 
 function Login () {
     return (
@@ -11,8 +12,8 @@ function Login () {
                 <span>Password</span>
                 <input type="password" id="password" />
                 
+                <Link to="/home"><button>entrar</button></Link>
                 
-                <button>entrar</button>
             </div>
         </div>
        
