@@ -148,5 +148,7 @@ span {
     color: white;
     background: #7978D9;
     border-radius: 5px;
+
+    cursor: pointer;
 }
 

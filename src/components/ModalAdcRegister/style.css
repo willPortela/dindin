@@ -1,0 +1,107 @@
+.container-modal-edit-register {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+}
+
+.form-edit-register {
+    width: 600px;
+    height: 1000px;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+    border-radius: 20px;
+
+    position: relative;
+}
+
+.form-edit-register img {
+    width: 30px;
+    height: 30px;
+
+    position: absolute;
+    right: 64px;
+    top: 80px;
+
+    cursor: pointer;
+}
+
+.form-edit-register h1 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+
+
+    color: #000000;
+
+    margin-left: 64px;
+    margin-top: 70px;
+}
+
+.btns {
+    width: 500px;
+    height: 60px;
+
+    margin: 52px auto 32px;
+}
+
+.btns button{
+    width: 50%;
+    height: 100%;
+
+    border: none;
+    border-radius: 10px;
+
+    color: white;
+    background-color: gray;
+
+    cursor: pointer;
+}
+
+.form-edit-register span{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #484848;
+
+    margin-left: 64px;
+    margin-bottom: 10px;
+}
+
+.form-edit-register input{
+    margin: 0px auto 30px;
+
+    width: 485px;
+    height: 63px;
+
+    background: #FFFFFF;
+    border: 1px solid #555555;
+    border-radius: 5px;
+}
+
+.btn-confirm {
+    all: unset;
+
+    margin: 43px auto;
+
+    padding: 15px 80px;
+    
+    color: white;
+    background: #7978D9;
+    border-radius: 5px;
+
+    cursor: pointer;
+}

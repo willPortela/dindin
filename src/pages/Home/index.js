@@ -6,11 +6,13 @@ import trash from '../../assets/trash.svg';
 import arrowtop from '../../assets/arrowtop.svg';
 import { useState } from 'react';
 import MoadalEditRegister from '../../components/ModalEditRegister';
+import ModalAdcRegister from '../../components/ModalAdcRegister';
 
 
 function Home () {
 
     const [editRegister, setEditRegister] = useState(false);
+    const [adcRegister, setAdcRegister] = useState(false);
 
 
     return (
@@ -64,11 +66,14 @@ function Home () {
                         </div>
                         
                     </div>
-                    <button>Adicionar Registro</button>
+                    <button onClick={()=>setAdcRegister(!adcRegister)}type="button">Adicionar Registro</button>
                 </div>
             </div>
             {editRegister && <MoadalEditRegister
                 setEditRegister={setEditRegister}
+            />}
+            {adcRegister && <ModalAdcRegister
+                setAdcRegister={setAdcRegister}
             />}
         </div>
     )
