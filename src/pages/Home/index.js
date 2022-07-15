@@ -4,12 +4,19 @@ import filter from '../../assets/filter.svg';
 import edit from '../../assets/edit.svg';
 import trash from '../../assets/trash.svg';
 import arrowtop from '../../assets/arrowtop.svg';
+import { useState } from 'react';
+import MoadalEditRegister from '../../components/ModalEditRegister';
 
 
 function Home () {
+
+    const [editRegister, setEditRegister] = useState(false);
+
+
     return (
         <div className="container-home">
-            <Header/>
+            <Header
+            />
             <div className="controler-finance">
                 <div className="finances">
                     <div className="btn-filter">
@@ -33,7 +40,7 @@ function Home () {
                             <span>Pix</span>
                             <span>R$ 100,00</span>
                             <div>
-                                <img src={edit} alt="img-edit"/>
+                                <img onClick={()=>setEditRegister(!editRegister)} src={edit} alt="img-edit"/>
                                 <img src={trash} alt="img-trash"/>
                             </div>
                         </div>
@@ -60,6 +67,9 @@ function Home () {
                     <button>Adicionar Registro</button>
                 </div>
             </div>
+            {editRegister && <MoadalEditRegister
+                setEditRegister={setEditRegister}
+            />}
         </div>
     )
 }
