@@ -1,0 +1,23 @@
+.container-register {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url('../../assets/background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+}
+
+.container-register img {
+    width: 169px;
+    height: 45px;
+
+    position: absolute;
+    left: 80px;
+    top: 50px;
+}
